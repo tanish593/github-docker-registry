@@ -26,7 +26,7 @@ jobs:
 
             docker pull mcr.microsoft.com/dotnet/samples:aspnetapp-nanoserver-ltsc2022
 
-            docker tag mcr.microsoft.com/dotnet/samples:aspnetapp-nanoserver-ltsc2022:latest ghcr.io/tanish-593/hello-docker-gcr-demo:latest
+            docker tag mcr.microsoft.com/dotnet/samples:aspnetapp-nanoserver-ltsc2022 ghcr.io/tanish-593/hello-docker-gcr-demo:latest
 
             docker push ghcr.io/tanish-593/hello-docker-gcr-demo:latest
 
